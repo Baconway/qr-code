@@ -14,12 +14,14 @@
       code.addData(ReturnItem);
       break;
     case "Image":
+      code.addData(`http://localhost:5173/image?end=${ReturnItem}`);
+      console.log(`http://localhost:5173/image?end=${ReturnItem}`);
+      //code.addData(`https://qrway.vercel.app/image?end=${ReturnItem}`);
       break;
   }
   code.make();
 
   const img = code.createImgTag(10, 5);
-  console.log(ReturnItem);
 </script>
 
 <div>{@html img}</div>
