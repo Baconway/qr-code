@@ -3,4 +3,10 @@
   let { data } = $props();
 </script>
 
-<img src="/{data.ender}" alt="this is an img" />
+<div class="flex flex-col justify-center items-center">
+  <img
+    class="w-64 h-64 object-contain"
+    src="/{data.ender}.png"
+    alt="this is an img"
+  />
+</div>
