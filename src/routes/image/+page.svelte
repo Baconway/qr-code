@@ -3,9 +3,9 @@
   let { data } = $props();
 </script>
 
-<div class="flex flex-col justify-center items-center">
+<div class="flex flex-col justify-center items-center min-h-screen">
   <img
-    class="w-64 h-64 object-contain"
+    class="w-lg h-lg object-contain"
     src="/{data.ender}.png"
     alt="this is an img"
   />

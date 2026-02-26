@@ -9,14 +9,44 @@
   <Process />
 </div>
 
-<div class="flex flex-col gap-2 absolute left-10 top-20 hover:animate-pulse">
-  <p class="text-3xl hover:-rotate-10">It can either come out as text</p>
-  <img src="" alt="text showcase 1" />
-  <img src="" alt="text showcase 2" />
+<div class="flex flex-col items-center gap-10 absolute left-10 top-20">
+  <p class="text-3xl hover:-rotate-10 hover:animate-pulse">
+    It can either come out as text
+  </p>
+  <div class="flex flex-row">
+    <img
+      class="object-contain w-50 h-90"
+      src="/text1.png"
+      alt="text showcase 1"
+    />
+    <img
+      class="object-contain w-50 h-90"
+      src="/text2.png"
+      alt="text showcase 2"
+    />
+  </div>
 </div>
 
-<div class="flex flex-col gap-2 absolute right-10 top-20 hover:animate-pulse">
-  <p class="text-3xl hover:-rotate-10">Or be a random image!</p>
-  <img src="" alt="img showcase 1" />
-  <img src="" alt="img showcase 2" />
+<div class="flex flex-col items-center gap-10 absolute right-10 top-20">
+  <p class="text-3xl hover:rotate-10 hover:animate-pulse">
+    Or be a random image!
+  </p>
+  <div class="flex flex-row">
+    <div class="flex flex-col items-center justify-center">
+      <img
+        class="object-contain w-50 h-50"
+        src="/kei.png"
+        alt="img showcase 1"
+      />
+      <p class="text-xl">love kei</p>
+    </div>
+    <div class="flex flex-col items-center justify-center">
+      <img
+        class="object-contain w-50 h-50"
+        src="/salt.png"
+        alt="img showcase 2"
+      />
+      <p class="text-xl">love salt</p>
+    </div>
+  </div>
 </div>
