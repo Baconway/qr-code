@@ -24,4 +24,14 @@
   const img = code.createImgTag(10, 5);
 </script>
 
-<div>{@html img}</div>
+<div class="mt-20 flex flex-col items-center justify-center align-middle pb-2">
+  <p class="text-2xl">
+    Scan this QR code to get something! (Not bait I swear!)
+  </p>
+</div>
+
+<div
+  class="flex flex-col items-center justify-center align-middle border-6 border-blue-200 p-2 bg-white"
+>
+  {@html img}
+</div>
