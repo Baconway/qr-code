@@ -7,6 +7,15 @@
 <div class="flex flex-col items-center justify-center">
   <p class="text-6xl font-bold">Big Giant Text</p>
   <Process />
+
+  <div class="text-2xl mt-2">
+    <p>
+      Created by: <a
+        class="text-blue-500 font-extrabold underline"
+        href="https://baconway.vercel.app/">Baconway</a
+      >
+    </p>
+  </div>
 </div>
 
 <div class="flex flex-col items-center gap-10 absolute left-10 top-20">
