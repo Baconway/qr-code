@@ -1,9 +1,9 @@
 <script>
-	import './layout.css';
-	import favicon from '$lib/assets/favicon.svg';
+  import "./layout.css";
+  import ico from "$lib/assets/ico.webp";
 
-	let { children } = $props();
+  let { children } = $props();
 </script>
 
-<svelte:head><link rel="icon" href={favicon} /></svelte:head>
+<svelte:head><link rel="icon" href={ico} /></svelte:head>
 {@render children()}
